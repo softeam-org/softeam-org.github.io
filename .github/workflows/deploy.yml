@@ -1,0 +1,39 @@
+# Based on pnpm GitHub Pages deployment lifecycle and Docusaurus docs 'Deployment' sections
+# https://github.com/pnpm/pnpm.github.io/blob/main/.github/workflows/deploy.yml
+# https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+      - name: Checkout Commit
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install pnpm
+        run: curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm@next-7
+      - name: Install dependencies
+        run: pnpm install
+      - name: Update pnpm bundle
+        run: curl -L --fail https://get.pnpm.io/v5.js > static/pnpm.js
+      - name: Build files
+        run: pnpm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
