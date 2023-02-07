@@ -1,41 +1,35 @@
-# Website
+<!-- Logo -->
+<p align="center">
+  <img src="static/img/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/softeam-org/" align="center">
+    <h1 align="center">The Software Team</h1>
+  </a>
+</p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<!-- Repo badges -->
+<p align="center">
+  <a href="https://github.com/softeam-org/softeam-org.github.io/graph/contributors">
+    <img
+      alt="Contribuitors"
+      src="https://img.shields.io/github/contributors/softeam-org/softeam-org.github.io.svg?style=for-the-badge&labelColor=20232A"
+    >
+  </a>
+  <a href="https://github.com/softeam-org/softeam-org.github.io/deployments">
+    <img
+      alt="GitHub Pages"
+      src="https://img.shields.io/github/actions/workflow/status/softeam-org/softeam-org.github.io/deploy.yml?label=Deploy&style=for-the-badge&labelColor=20232A"
+    >
+  </a>
+  <a href="https://github.com/softeam-org/softeam-org.github.io/blob/main/LICENSE">
+    <img
+      alt="License"
+      src="https://img.shields.io/github/license/softeam-org/softeam-org.github.io.svg?style=for-the-badge&labelColor=20232A"
+    >
+  </a>
+</p>
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<!-- About -->
+<p align="center">
+  Repositório do website da Empresa Júnior de Computação da Universidade Federal de Sergipe,
+  contêm conteúdos relacionados a documentação, blog, guias, processos seletivos, e transparência.
+</p>
