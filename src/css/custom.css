@@ -1,0 +1,92 @@
+[data-theme='light'] {
+  --ifm-color-primary: #0e5589;
+  --ifm-color-primary-dark: #0d4c7b;
+  --ifm-color-primary-darker: #0c4874;
+  --ifm-color-primary-darkest: #0a3b60;
+  --ifm-color-primary-light: #0f5d97;
+  --ifm-color-primary-lighter: #10629e;
+  --ifm-color-primary-lightest: #126eb2;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #84bcdc;
+  --ifm-color-primary-dark: #69add4;
+  --ifm-color-primary-darker: #5ba6d0;
+  --ifm-color-primary-darkest: #378ec0;
+  --ifm-color-primary-light: #9fcbe4;
+  --ifm-color-primary-lighter: #add2e8;
+  --ifm-color-primary-lightest: #d6e9f3;
+}
+
+/* navbar community link icons */
+.navbar__item.navbar__link[href*="github"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="github"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://simpleicons.org/icons/github.svg");
+  background-repeat: no-repeat;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="github"]:before {
+  filter: invert(100%);
+}
+
+.navbar__item.navbar__link[href*="instagram"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="instagram"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://simpleicons.org/icons/instagram.svg");
+  background-repeat: no-repeat;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="instagram"]:before {
+  filter: invert(100%);
+}
+
+.navbar__item.navbar__link[href*="linkedin"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="linkedin"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://simpleicons.org/icons/linkedin.svg");
+  background-repeat: no-repeat;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="linkedin"]:before {
+  filter: invert(100%);
+}
+
+.navbar__item.navbar__link[href*="youtube"] {
+  padding: 0 1.3rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="youtube"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://simpleicons.org/icons/youtube.svg");
+  background-repeat: no-repeat;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="youtube"]:before {
+  filter: invert(100%);
+}
