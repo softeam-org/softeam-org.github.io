@@ -35,6 +35,10 @@ module.exports = {
     locales: [LOCALE],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       'classic',
@@ -106,6 +110,7 @@ module.exports = {
         darkTheme: require('prism-react-renderer/themes/vsDark'),
       },
     }),
+
   plugins: [
     async function() {
       return {
@@ -118,4 +123,6 @@ module.exports = {
       };
     },
   ],
+
+  themes: ['@docusaurus/theme-mermaid'],
 };
