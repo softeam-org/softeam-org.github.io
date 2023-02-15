@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Empresa Júnior
 
-## Somos parte do Movimento Empresa Júnior (MEJ)
+## Somos parte do Movimento Empresa Júnior (MEJ) {#mej}
 
 Somos um das muitas empresas juniores que integram o **MEJ**, que compartilham esta missão que acredita
 na construção de um país mais empreendedor, competitivo, com melhores empresas, governos e universidades, que
@@ -12,7 +12,7 @@ desenvolve seus membros tanto no âmbito profissional e incentiva a serem mais e
 Tudo por um Brasil mais ético, mais educador e colaborativo, com a formação de líderes capazes de empreender um
 mudança em nosso país.
 
-## Federação das Empresas Juniores
+## Federação das Empresas Juniores {#junior-companies-federation}
 
 Existe um orgão de âmbito nacional responsável por acompanhar o progresso das empresas júnior, a [Brasil Júnior](https://brasiljunior.org.br/)
 que é a **Confederação Brasileira de Empresas Juniores**. Graças a mesma e suas ferramentas de auditoría e
@@ -21,7 +21,7 @@ Nossa empresa está ligada à **Federação Sergipana de Empresas Juniores**, a 
 **Brasil Júnior**.
 
 
-## Formação Empreendedora
+## Formação Empreendedora {#entrepreneurial-training}
 
 Empreender significa enfrentar desafios, aprender coisas novas, ter e colocar em prática novas idéias,
 o que leva a **SofTeam**, como **Empresa Júnior**, possibilitar a apresentação dessas ideias, gerenciar

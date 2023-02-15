@@ -9,13 +9,13 @@ de Computação** (DComp), as mesmas estão equipados com mesas, computadores, i
 para auxiliar o desenvolvimento das atividades presenciais, assim como forno microondas, frigobar e cafeteira para a
 comodidade dos membros durante qualquer momento de trabalho presencial.
 
-## Acesso
+## Acesso {#access}
 
 O acesso as salas da empresa pode ser obtido na secretaria do **DComp** próximo a sede da **SofTeam**.
 
-## Localização
+## Localização {#location}
 
-### Sede
+### Sede {#headquarters}
 
 <iframe
   width="480"
