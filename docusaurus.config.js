@@ -25,7 +25,7 @@ module.exports = {
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'log',
   favicon: 'img/favicon.ico',
-  trailingSlash: true,
+  trailingSlash: false,
 
   organizationName: GITHUB_USER,
   projectName: PROJECT_NAME,
