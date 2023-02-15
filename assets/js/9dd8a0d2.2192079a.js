@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksofteam_org_github_io=self.webpackChunksofteam_org_github_io||[]).push([[54],{7275:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var r=n(7294),a=n(7676);function l(){return r.createElement(a.Z,null,r.createElement("main",{className:"flex grow items-center justify-center"},r.createElement("h1",null,"TODO")))}}}]);
